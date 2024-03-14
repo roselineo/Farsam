@@ -1,0 +1,47 @@
+.Header {
+    border: 2px solid red;
+    display: flex;
+    height: 10vh;
+    padding: 0 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+.mobile-menu{
+    display: none;
+}
+
+
+.logo image{
+    border: 3px solid blue;
+    
+}
+
+.logo-profile{
+    border: 2px solid orangered;
+    width: 10%;
+    height: 20%;
+    border-radius: 100px;
+    padding: 3px;
+}
+
+.menu ul{
+    list-style: none ;
+    display: flex;
+    gap: 15px;
+}
+
+
+ .menu-item{
+    text-decoration:none;
+    background-color:orange;
+    color: aliceblue;
+    padding: 10px 20px;
+
+    font-size: larger;
+
+} 
+
+.menu ul li a:hover{
+    background-color: green;
+    
+}
