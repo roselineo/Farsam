@@ -8,7 +8,7 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.Hero{
+.HeroContent{
     min-height: 80vh;
     border: 2px solid purple;
     

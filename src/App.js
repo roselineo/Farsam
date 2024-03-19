@@ -1,13 +1,13 @@
 
 import Header from "./component/header";
+import HeroContent from "./component/HeroContent";
 import Footer from "./component/Footer";
-import Hero from "./component/Hero";
 
-function App () {
+function App (){
   return (
     <div className="App">
         <Header/>
-        <Hero/>
+        <HeroContent/>
         <Footer/>
 
     </div>
