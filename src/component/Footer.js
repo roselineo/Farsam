@@ -31,7 +31,7 @@ function Footer () {
          <div className="copy"> &copy2020 Farsamfreash All Right Rreserved</div>
          <div className="social-icons">
             <h4>Find us on</h4>
-            <span className="inst"><FaInstagram/></span>
+            <span><FaInstagram/></span>
             <span><FaFacebook/></span>
             <span><FaXTwitter/></span>
             <span><FaLinkedin/></span>

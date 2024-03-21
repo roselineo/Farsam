@@ -16,11 +16,11 @@ function Home() {
 
     }
     return(
-        <section className= "Home">
+        <section className="Home1">
 
              <Slider {...settings}>
             <div className="slide-item">
-                <img src={myimages} className = "slide-image" alt="Home"/>
+                <img src={myimages} className="slide-image" alt="Home"/>
             </div>
 
             <div className="slide-item">
@@ -30,6 +30,14 @@ function Home() {
 
             </Slider>
     
+            <section className="home2">
+                <div className="main-home">
+                    <h1 className="home-text1">We provide with affordable, best-in class  household hygiene products.</h1> 
+                    <p className="home-text2">Farsam Fresh Enterpise Limited (FFEL) aims to significantly impact the availabilty of hygiene and sanitation solutions fo Nigeria.</p>
+
+                </div>
+
+            </section>
         </section>
     )
 }
